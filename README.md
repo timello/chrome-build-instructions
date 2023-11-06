@@ -44,6 +44,7 @@ Not actively maintained.
     - Copy contents of included .gclient to /root/chromium/.gclient
     - cd /root/chromium/src
 - Fix Python3 requiring too high of a GLIBC version
+    - ```# (timello): this is not yet created so the commands below are not valid```
     - rm /root/depot_tools/.cipd_bin/3.8/bin/python3
     - ln -s /bin/python3 /root/depot_tools/.cipd_bin/3.8/bin/python3
 - ```# (timello): I could not find this in the DEPS file. Not clear what 'reclient' section is.```
