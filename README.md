@@ -46,6 +46,7 @@ Not actively maintained.
 - Fix Python3 requiring too high of a GLIBC version
     - rm /root/depot_tools/.cipd_bin/3.8/bin/python3
     - ln -s /bin/python3 /root/depot_tools/.cipd_bin/3.8/bin/python3
+# (timello): I could not find this in the DEPS file. Not clear what 'reclient' section is.
 - Add "    'condition': 'host_os == "win"', to DEPS file in reclient section" to fix missing binary for aarch64
 - Change `  git_args = ['log', '-1', '--format=%H %ct']` to `  git_args = ['log', '-1', '--format="%H %ct"']` in `build/util/lastchange.py`
     - gclient sync -D --no-history --shallow --force --reset
